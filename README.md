@@ -1,21 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Yum-Go Food Delivery App
 
-# Run and deploy your AI Studio app
+A beautiful, modern Android application for food delivery built entirely with Jetpack Compose. 
 
-This contains everything you need to run your app locally.
+## Features
+- **Jetpack Compose UI**: Clean, edge-to-edge design with dark mode support.
+- **Cart & Checkout Flow**: Full state management for a seamless checkout experience.
+- **Local Persistence**: Uses Room Database to save order history and cart items, and DataStore for user preferences.
+- **Live Tracking**: Mocked live tracking UI with dynamic progress updates.
+- **Search & Filtering**: Sticky search bar and interactive category filters.
 
-View your app in AI Studio: https://ai.studio/apps/e810e2d2-48ce-4d8d-8c5b-b9b5fad94d8d
+## How to Run Locally
 
-## Run Locally
+**Prerequisites:** [Android Studio](https://developer.android.com/studio)
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+1. Clone this repository.
+2. Open Android Studio.
+3. Select **Open** and choose the directory containing this project.
+4. Allow Android Studio to sync Gradle and build the project.
+5. Run the app on an emulator or a physical Android device connected via USB.
