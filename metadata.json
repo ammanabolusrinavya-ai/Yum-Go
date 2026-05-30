@@ -1,0 +1,6 @@
+{
+  "name": "Food Delivery",
+  "description": "A food delivery UI clone with mock restaurant listings, menu browsing, single-restaurant cart rules, and a simulated live tracking checkout flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
